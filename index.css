@@ -1,0 +1,30 @@
+@font-face {font-family: my-font;src: url("../fonts/Supernatural_Knight.ttf");}
+@font-face {
+     font-family: my-font2;
+     src: url("../fonts/Pacifico-Regular.ttf");
+}
+@font-face {
+     font-family: my-font3;
+     src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+     font-family: my-font4;
+     src: url("../fonts/Audiowide-Regular.ttf");
+}
+.container {margin: 0; font-family: 'Supernatural_Knight', cursive; color: #333; background: #f8f8f8; font-size: 16px;}
+.research-icon{width: 10%;}
+.task{background-color: rgb(24, 99, 17);padding: 24px;}
+.containerr {margin: 0; font-family: 'Supernatural_Knight', cursive; color: rgb(255, 255, 255); background-color: rgb(24, 99, 17); font-size: 24px; font-weight: 400px;}
+.nav ul {margin: 0; padding: 0; list-style: none;}
+.nav ul li {float: left; position: relative;}
+.nav ul li a { color: rgb(255, 255, 255); padding: 30px; text-decoration: none; display: inline-block;}
+.nav ul li a:hover { background: rgb(24, 99, 17); color: rgb(0, 0, 0);}
+.nav ul ul {position: absolute; left: 0; top: 100%; background: rgb(24, 99, 17);
+     width: 100%; z-index: 99999; display: none;}
+.nav ul ul li {float: none}
+.nav ul ul li a {margin: 0 auto; border-bottom: 1px solid rgb(24, 99, 17);
+     line-height: 1.8em;text-align: center;}
+.nav ul li:hover>ul {display: block}
+.container-fluid{width: 100%;}
+.bouncy-task{animation: bouncy 5s backwards;position:absolute;}
+.icon{color: white;}
